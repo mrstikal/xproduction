@@ -1,0 +1,19 @@
+{
+    "name": "am/xproduction",
+    "description": "Simple sample miniapp for X Production",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexej Mrštík",
+            "email": "a@mrstik.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": ""
+        }
+    }
+}

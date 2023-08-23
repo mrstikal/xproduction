@@ -1,3 +1,5 @@
 /runtime/cache/*
 !.gitkeep
 *.code-workspace
+
+/vendor/
