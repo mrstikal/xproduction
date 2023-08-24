@@ -1,4 +1,5 @@
 /runtime/cache/*
+/db/*
 !.gitkeep
 *.code-workspace
 
