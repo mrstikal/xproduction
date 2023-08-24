@@ -10,6 +10,7 @@ class ProductDef
     const PRODUCT_CATEGORY = 'category';
     const PRODUCT_PRICE = 'price';
     const PRODUCT_DESCRIPTION = 'description';
+    const PRODUCT_VISITS_COUNT = 'product_visits_count';
 
     const PRODUCT_PRODUCT_DB_TYPE = 'product_product_db_type';
     const PRODUCT_PRODUCT_DB_TYPE_MOCK = 'mock';

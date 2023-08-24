@@ -17,7 +17,7 @@ class ProductController
         $connection = $db->getConnection();
         $product = $connection->findProductById((int)$id);
 
-        $product['count'] = $this->increaseCount((int) $id);
+        $product[ProductDef::PRODUCT_VISITS_COUNT] = $this->increaseCount((int) $id);
 
         return JsonEncode::formatJson($product);
     }
